@@ -1,0 +1,9 @@
+<?php
+
+if ($this->showMessage()):?>
+    <div class="global-site-notice demo-notice">
+        <div class="notice-inner">
+            <p><?php echo Mage::getStoreConfig('copex_messages/options/message') ?></p>
+        </div>
+    </div>
+<?php endif; ?>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <CopeX_Messages>
+            <version>0.0.1</version>
+        </CopeX_Messages>
+    </modules>
+    <global>
+        <blocks>
+            <copex_messages>
+                <class>CopeX_Messages_Block</class>
+            </copex_messages>
+        </blocks>
+        <helpers>
+            <copex_messages>
+                <class>CopeX_Messages_Helper</class>
+            </copex_messages>
+        </helpers>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <copex_messages>
+                    <file>copex_messages.xml</file>
+                </copex_messages>
+            </updates>
+        </layout>
+    </frontend>
+</config>
